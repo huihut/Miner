@@ -1,3 +1,7 @@
+//
+// Created by huihut on 2018/1/8.
+//
+
 #pragma once
 
 #ifndef MINER_LIBRARY_H
