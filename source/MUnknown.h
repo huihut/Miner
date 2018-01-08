@@ -10,7 +10,6 @@
 namespace miner
 {
     //! Base class of most objects of the Miner Engine.
-
     class MUnknow
     {
     public:
