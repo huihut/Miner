@@ -5,7 +5,7 @@
 #ifndef MINER_MUNKNOWN_H
 #define MINER_MUNKNOWN_H
 
-#include "minerTypes.h"
+#include "MTypes.h"
 
 namespace miner
 {

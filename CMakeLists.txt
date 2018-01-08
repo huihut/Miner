@@ -4,7 +4,7 @@ project(Miner)
 set(CMAKE_CXX_STANDARD 11)
 
 # Miner library
-add_library(Miner SHARED source/Miner.cpp source/Miner.h source/MUnknown.h source/minerTypes.h)
+add_library(Miner SHARED source/Miner.cpp source/Miner.h source/MUnknown.h source/MTypes.h)
 
 # Examples/test1
 add_executable(test1 examples/test1.cpp)
