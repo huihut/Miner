@@ -6,8 +6,8 @@
 #if defined(WIN32) || defined(_WIN32) || defined(_WIN64)
 #pragma comment(lib, "D:\\code\\CLionProjects\\Miner\\cmake-build-debug\\libMiner.dll")
 #else
-
 #endif
+
 #include <iostream>
 
 using namespace miner;
