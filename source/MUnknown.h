@@ -9,7 +9,7 @@
 
 namespace miner
 {
-    //! Base class of most objects of the Irrlicht Engine.
+    //! Base class of most objects of the Miner Engine.
 
     class MUnknow
     {
