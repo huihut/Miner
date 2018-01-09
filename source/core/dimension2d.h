@@ -1,5 +1,5 @@
 //
-// Created by huihu on 2018/1/9.
+// Created by huihut on 2018/1/9.
 //
 
 #ifndef MINER_DIMENSION2D_H
