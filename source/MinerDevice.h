@@ -6,6 +6,7 @@
 #define MINER_MINERDEVICE_H
 
 #include "MUnknown.h"
+#include "MTimer.h"
 #include "core/dimension2d.h"
 
 namespace miner
