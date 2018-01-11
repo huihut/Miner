@@ -8,6 +8,7 @@
 #include "MUnknown.h"
 #include "MTimer.h"
 #include "core/dimension2d.h"
+#include "gui/MCursorControl.h"
 
 namespace miner
 {
