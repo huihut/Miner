@@ -11,7 +11,7 @@
 #include "gui/MCursorControl.h"
 #include "io/MFileSystem.h"
 #include "video/MVideoDriver.h"
-#include "video/MVideoDriver.h"
+#include "video/EDriverType.h"
 
 namespace miner
 {
