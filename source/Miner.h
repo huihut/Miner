@@ -4,28 +4,20 @@
 
 #pragma once
 
-#ifndef MINER_LIBRARY_H
-#define MINER_LIBRARY_H
-#endif
-
 #if defined(WIN32) || defined(_WIN32) || defined(_WIN64)
-#ifdef BUILD_MINER_LIBRARY
-#define IO_MINER_LIBRARY __declspec(dllexport)
+#  ifdef MINER_API_EXPORTS
+#    define MINER_API __declspec(dllexport)
+#  else
+#    define MINER_API __declspec(dllimport)
+#  endif
 #else
-#define IO_MINER_LIBRARY __declspec(dllimport)
-#endif
-#else
-#ifdef BUILD_MINER_LIBRARY
-#define IO_MINER_LIBRARY __declspec(export)
-#else
-#define IO_MINER_LIBRARY __declspec(import)
-#endif
+#  define MINER_API
 #endif
 
 //! Everything in the Miner Engine can be found in this namespace.
 namespace miner
 {
-    IO_MINER_LIBRARY void hello();
+    MINER_API void hello();
 
     template <typename T>
     T add(T x1, T x2)
